@@ -54,7 +54,6 @@ class deleteCharacter {
 	}
 }
 
-
 class replaceCharacter {
 	String str = "hello world";
 
@@ -83,10 +82,9 @@ class splitString {
 	String str = "jan-feb-march";
 	String delimeter = "-";
 	String[] temp;
-	
 
 	void display() {
-		temp=str.split(delimeter);
+		temp = str.split(delimeter);
 		for (int i = 0; i < temp.length; i++) {
 			System.out.println(temp[i]);
 			System.out.println("");
