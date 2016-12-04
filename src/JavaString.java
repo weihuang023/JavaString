@@ -84,6 +84,7 @@ class splitString {
 	String[] temp;
 
 	void display() {
+		System.out.println("\n====== Split String =======");
 		temp = str.split(delimeter);
 		for (int i = 0; i < temp.length; i++) {
 			System.out.println(temp[i]);
@@ -118,5 +119,7 @@ public class JavaString {
 		rc.display();
 		reverseCharacter rvc = new reverseCharacter();
 		rvc.display();
+		splitString ss = new splitString();
+		ss.display();
 	}
 }
