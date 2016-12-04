@@ -6,9 +6,9 @@ class stringCompareEmp {
 
 	public void display() {
 		System.out.println(" ");
-		System.out.println("-----------===Java String Example===-------------");
+		System.out.println("===-------=== Java String Example ===----------===");
 
-		System.out.println("\nCompare the string =======");
+		System.out.println("\n======== Compare the string =======");
 		System.out.println(str.compareTo(anotherString));
 		System.out.println(str.compareToIgnoreCase(anotherString));
 		System.out.println(str.compareTo(objStr.toString()));
@@ -21,7 +21,7 @@ class searchLastString {
 
 	void display() {
 		System.out.println(" ");
-		System.out.println("======Search the string=======");
+		System.out.println("====== Search the string =======");
 		if (lastIndex == -1) {
 			System.out.println("Hello not found");
 		} else {
@@ -45,7 +45,7 @@ class deleteCharacter {
 
 	void display() {
 		System.out.println(" ");
-		System.out.println("======Delete the string=======");
+		System.out.println("====== Delete the string =======");
 		System.out.println(removeCharAt(str, 3));
 	}
 
@@ -73,7 +73,7 @@ class reverseCharacter {
 
 	void display() {
 		System.out.println(" ");
-		System.out.println("Reverse the string =======");
+		System.out.println("======== Reverse the string =======");
 		System.out.println("String before reverse: " + string);
 		System.out.println("String after reverse: " + reverse);
 	}
